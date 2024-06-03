@@ -1,0 +1,234 @@
+/*.recipe_page {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+table {
+    width: 80%;
+   
+    border-collapse: collapse;
+
+    margin-bottom: 20px;
+
+
+}
+
+th,
+td {
+    width: 50%;
+   
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    padding: 8px;
+   
+    text-align: left;
+    
+    height: 50px;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    
+}
+
+th:first-child,
+td:first-child {
+    font-weight: normal;
+    
+}
+
+.textarea-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+#comment_signup {
+    flex: 1;
+    
+    margin-right: 10px;
+    
+}
+
+.recipecard_img {
+    width: 290px;
+    height: 300px;
+    object-fit: cover;
+}*/
+/* cut the hiegjt but aligned
+.recipe_desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 150px;
+}
+
+.tbl_recipemain {
+    width: 80%;
+    height: 100vh;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    
+    margin-left: 200px;
+}
+
+th,
+td {
+    width: 50%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    text-align: left;
+    height: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th:first-child,
+td:first-child {
+    font-weight: normal;
+}
+
+.textarea-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#comment_signup {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.recipecard_img {
+    width: 290px;
+    height: 300px;
+    object-fit: cover;
+}*/
+
+.recipe_desc {
+
+    height: 100%;
+    width: 70%;
+    margin-left: 400px;
+    margin-top: 10px;
+    /* Adjust as needed */
+}
+
+.tbl_recipe_desc {
+    width: 70%;
+    border-spacing: 0;
+    /* Set border spacing to 0 to collapse the borders */
+
+    border: 2px solid black;
+    /* Border for the table */
+    border-collapse: separate;
+    /* Separate border model to show borders outside */
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+th,
+td {
+    width: 50%;
+    border: 1px solid black;
+
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    /* Ensure text is aligned to the top */
+}
+
+.tbl_Comment {
+    width: 500px;
+}
+
+
+th:first-child,
+td:first-child {
+    font-weight: normal;
+}
+
+.textarea-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#comment_signup {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.recipecard_img {
+    width: 290px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.recipecard_logo {
+    width: 20px;
+    /* Adjust size as needed */
+    height: 20px;
+    vertical-align: middle;
+
+    margin-right: 5px;
+
+    margin-top: 1px;
+}
+
+.tbl_Comment th,
+.tbl_Comment td {
+    border: none;
+
+
+
+    margin: 0;
+
+}
+
+.star-rating-td {
+    width: 50%;
+}
+
+.comment-td {
+    width: 30%;
+}
+
+.comment-user {
+    width: 10%;
+}
+
+.tbl_Comment tr {
+    height: 10px;
+}
+
+.tbl_Comment {
+    width: 100%;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.user_logo {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+
+    margin-right: 5px;
+
+    margin-top: 1px;
+}
+
+input {
+    height: 25px;
+}

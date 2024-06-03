@@ -1,0 +1,77 @@
+.signup_main {
+  width: 500px;
+  /* Increased width */
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Cambria', 'Times New Roman', serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup_main form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.signup_main label {
+  margin-bottom: 2px;
+  font-size: 16px;
+  color: #333;
+  margin-top: 0;
+}
+
+.signup_main input,
+.signup_main .CountrySelector {
+  padding: 5px;
+  /* Reduced padding */
+  margin-bottom: 5px;
+  /* Reduced margin */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: 'Cambria', 'Times New Roman', serif;
+}
+
+.signup_main .button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  /* Adjust margin for spacing */
+}
+
+.signup_main button {
+  padding: 10px 20px;
+  background-color: #f37e60;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Cambria', 'Times New Roman', serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup_main button:hover {
+  background-color: #0056b3;
+}
+
+.signup_main button.cancel {
+  background-color: #dc3545;
+  /* Red color for cancel button */
+}
+
+.signup_main button.cancel:hover {
+  background-color: #c82333;
+  /* Darker red on hover */
+}
+
+.btn_signup {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}

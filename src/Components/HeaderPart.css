@@ -1,0 +1,104 @@
+ .link_header {
+     display: flex;
+     flex-direction: row;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     width: 100%;
+     justify-content: space-around;
+     align-items: center;
+     position: sticky;
+     background-color: #f37e60;
+     /* Optional: add background color */
+
+     /* Optional: add padding */
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     top: 50px;
+     overflow-x: hidden;
+     height: 80px;
+
+ }
+
+ .link {
+     color: rgba(255, 255, 255, 0.908);
+ }
+
+ .header p {
+     margin: 0;
+     /* Optional: remove default margin */
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .logo_div {
+     width: auto;
+     /* Let the width adjust to the content */
+
+
+ }
+
+ .logo_div img {
+     width: 250px;
+     /* Adjust the width of the logo */
+     height: auto;
+     /* Maintain aspect ratio */
+     margin-top: -70px;
+     position: sticky;
+
+ }
+
+ .main {
+     display: flex;
+     flex-direction: row;
+
+ }
+
+ .footer {
+     background-color: grey;
+ }
+
+ .link {
+     color: white;
+ }
+
+ .home_image img {
+     height: 200px;
+     width: 180px;
+ }
+
+ .link img {
+     width: 50px;
+     height: 50px;
+ }
+
+ .search {
+     width: 160px;
+     height: 30px;
+     padding: 5px;
+     border: 2px solid #ccc;
+     /* Adjust the border color as needed */
+     border-radius: 25px;
+     /* Adjust the value to make it more or less rounded */
+     outline: none;
+     transition: border-color 0.3s ease-in-out;
+ }
+
+ .search:focus {
+     border-color: #007bff;
+     /* Adjust the focus border color as needed */
+ }
+
+
+ .search-container {
+     display: flex;
+     align-items: center;
+ }
+
+ #img_search {
+     width: 30px;
+     height: 30px;
+     cursor: pointer;
+     margin: 10px;
+ }

@@ -1,0 +1,27 @@
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+.middle-content {
+
+    overflow-y: auto;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+}
+
+.home_image {
+    min-height: 100px;
+    min-width: 100%;
+    background-color: goldenrod;
+    justify-content: center;
+}

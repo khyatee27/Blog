@@ -1,0 +1,55 @@
+.comment_tbl {
+    width: 55%;
+    /* Make the table fill its container */
+    border-collapse: collapse;
+    /* Collapse borders */
+
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 0
+}
+
+th,
+td {
+    width: 50%;
+    /* Set both columns to 50% of the total table size */
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    padding: 8px;
+
+    text-align: left;
+    /* Align text to the left */
+
+}
+
+
+
+
+th:first-child,
+td:first-child {
+    font-weight: normal;
+    /* Make the first column bold */
+}
+
+.textarea-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Style for the textarea */
+#comment_signup {
+    flex: 1;
+    /* Allow the textarea to grow to fill remaining space */
+
+    margin-right: 20px;
+    /* Add spacing between the textarea and button */
+}
+
+.btn_comment1,
+.btn_comment2 {
+    background-color: #f37e60;
+}

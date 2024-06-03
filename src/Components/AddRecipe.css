@@ -1,0 +1,108 @@
+.tbl_recipemain {
+    display: table;
+    width: 99%;
+    /*background-color: rgb(240, 220, 192);*/
+    background-color: rgb(234, 233, 232);
+    margin-left: 30px;
+    margin: 5px;
+
+
+
+}
+
+.recipe {
+    width: 55%;
+    background-color: rgb(231, 225, 217);
+    margin-left: 300px;
+    border: 1px solid black;
+
+    border-radius: 10px;
+}
+
+
+
+.tbl_recipemain tr {
+    display: table-row;
+    border-style: none;
+    border-bottom: solid;
+
+    background-color: rgb(231, 225, 217);
+}
+
+
+
+.pencil_img {
+    max-width: 150px;
+    /* Ensure the image does not exceed the container's width */
+    max-height: 100px;
+    /* Ensure the image does not exceed the container's height */
+    width: auto;
+    /* Let the browser calculate the width automatically */
+    height: auto;
+    /* Let the browser calculate the height automatically */
+    display: block;
+    /* Ensures the image is displayed as a block element */
+    margin: auto;
+    margin-left: 1050px;
+    margin-bottom: -40px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tbl_recipemain td {
+    display: table-cell;
+    background-color: rgb(231, 225, 217);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: none;
+
+}
+
+
+.tbl_recipemain td:first-child {
+    width: 20%;
+}
+
+.tbl_recipemain td:last-child {
+    width: 80%;
+}
+
+.tbl_recipemain input[type="text"] {
+    width: calc(100% - 170px);
+    padding: 3px 5px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tbl_recipemain textarea.recipe_step {
+    width: calc(100% - 40px);
+    padding: 3px 5px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    height: 50px;
+
+    border-radius: 5px;
+}
+
+.btn_recipeadd {
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+
+    background-color: #f37e60;
+    color: white;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

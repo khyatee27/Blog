@@ -1,0 +1,57 @@
+/* Styles for the login component */
+.Login_main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    right: 0;
+    top: 0px;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    /* Ensure it is on top */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.Login_main p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Login_main input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Login_main button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Login_main button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles to disable other components */
+body.modal-open {
+    overflow: hidden;
+    pointer-events: none;
+}
+
+body.modal-open .Login_main {
+    pointer-events: all;
+}

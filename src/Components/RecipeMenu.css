@@ -1,0 +1,267 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+#btnrecipe {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnrecipe:hover {
+    background-color: #218838;
+}
+
+.recipe_card {
+    background: #dd6d4e;
+
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 15px;
+    transition: transform 0.3s;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.recipe_card:hover {
+    transform: translateY(-10px);
+}
+
+.recipe_card h3 {
+    margin-top: 0;
+}
+
+.recipe_card p {
+    margin: 10px 0;
+}
+
+#btn_view {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn_view:hover {
+    background-color: #0056b3;
+}
+
+.recipe_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: top;
+    margin-left: 90px;
+}
+
+.image {
+    height: 150px;
+    width: 220px;
+    overflow: hidden;
+    
+    display: flex;
+   
+    justify-content: center;
+   
+    align-items: center;
+   
+}
+
+.img_foodcard {
+    max-width: 100%;
+
+    max-height: 100%;
+
+    object-fit: fill;
+    
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.circle-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.circle-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin: 20px;
+}
+
+.circle-link img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+    margin-bottom: 10px;
+    border-style: double;
+}
+
+.circle-link span {
+    font-size: 14px;
+}*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+#btnrecipe {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnrecipe:hover {
+    background-color: #218838;
+}
+
+.recipe_card {
+    background: #f37e60;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 15px;
+    transition: transform 0.3s;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe_card:hover {
+    transform: translateY(-10px);
+}
+
+.recipe_card h3 {
+    margin-top: 0;
+}
+
+.recipe_card p {
+    margin: 10px 0;
+}
+
+#btn_view {
+    padding: 10px 20px;
+    background-color: #120906f9;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn_view:hover {
+    background-color: #0056b3;
+}
+
+.recipe_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+.image {
+    height: 120px;
+    width: 220px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img_foodcard {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.error-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+
+}
+
+.circle-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-link:hover {
+    transform: translateY(-5px);
+}
+
+.circle-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.circle-link img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px double #333;
+}
+
+.circle-link span {
+    font-size: 14px;
+    text-align: center;
+}

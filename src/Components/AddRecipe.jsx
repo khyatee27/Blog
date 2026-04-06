@@ -137,7 +137,7 @@ function AddRecipe() {
     return (
         <>
 
-            <p> Enter Recipe details below to create new Recipe.To post as guest user please make sure to log in!</p>
+            <p> Enter Recipe details below to create new Recipe.To post as guest user please make sure to log in!</p><br/>
 
             <div className='recipe'>
 

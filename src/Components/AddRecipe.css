@@ -2,7 +2,7 @@
     display: table;
     width: 99%;
     /*background-color: rgb(240, 220, 192);*/
-    background-color: red;
+    background-color: white;
     margin-left: 30px;
     margin: 5px;
 
@@ -56,7 +56,7 @@ p {
 
 .tbl_recipemain td {
     display: table-cell;
-    background-color: blue;
+    background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-style: none;
 

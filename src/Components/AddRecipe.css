@@ -56,7 +56,7 @@ p {
 
 .tbl_recipemain td {
     display: table-cell;
-    background-color: rgb(231, 225, 217);
+    background-color: blue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-style: none;
 

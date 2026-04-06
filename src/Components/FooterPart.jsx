@@ -18,7 +18,7 @@ function FooterPart() {
                     </div>
 
                 </div>
-                <p>Copyrights @</p>
+                <p>Copyrights @Khyatis_Cookstory</p>
             </div>
         </>
     )

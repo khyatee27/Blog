@@ -16,7 +16,7 @@ function FooterPart() {
                         <img src={emailLogo} alt="log not found" />
                         <img src={fbLogo} alt="log not found" />
                     </div>
-<p>Copyrights @Khyatis_Cookstory</p>
+<p>  Copyrights @Khyatis_Cookstory</p>
                 </div>
                 
             </div>
